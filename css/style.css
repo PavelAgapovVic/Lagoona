@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-heading  {
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+/* Header */
+/* Header Up */
+.header {
+    height: 154px;
+}
+
+.header-up {
+    display: flex;
+    height: 84px;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.header-personal {
+    margin-left: auto;
+}
+
+/* Header Down */
+.header-down {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    padding-left: 45px;
+    
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 45px;
+}
+
+/* Special Offers */
+.section-spec-offers {
+    padding-top: 46px;
+    padding-bottom: 70px;
+}
+
+.section-spec-offers-list {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.section-spec-offers-list>* {
+    flex: 1 1 80px;
+}
+
+.section-spec-offers-item {
+    outline: 3px solid red;
+}
+
+.section-spec-offers-item:not(:nth-child(2n)) {
+    margin-bottom: 24px;
+}
+
+.section-spec-offers-item:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
+
+.section-spec-offers-item:last-child {
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+/* About Us */
+.section-aboutUs-text {
+    max-width: 75.89%;
+    padding-bottom: 70px;
+}
+
+/* Services */
+.section-services-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 46px;
+}
+
+.section-services-item {
+    width: 573px;
+    margin-bottom: 24px;
+    outline: 3px solid red;
+}
+
+.section-services-item:not(:nth-child(2n)) {
+    margin-right: 24px;
+
+}
+
+/* Benefits */
+.section-benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 48px;
+}
+
+.section-benefits-item {
+    width: 276px;
+    height: 276px;
+    margin-bottom: 22px;
+    outline: 3px solid red;
+}
+
+.section-benefits-item:not(:nth-child(4n)) {
+    margin-right: 22px;
+}
+
+/* Hotel */
+.section-hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 46px;
+}
+
+.section-hotel-item {
+    width: 374px;
+    height: 440px;
+    margin-bottom: 24px;
+    outline: 3px solid red;
+}
+
+.section-hotel-item:not(:nth-child(3n)) {
+    margin-right: 22px;
+}
+
+
