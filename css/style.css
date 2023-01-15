@@ -267,8 +267,13 @@ html {
 
 /* About Us */
 .section-aboutUs-text {
-    max-width: 75.89%;
+    margin: 0;
+    max-width: 888px;
     padding-bottom: 70px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000000;
 }
 
 /* Services */
