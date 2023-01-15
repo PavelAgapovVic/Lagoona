@@ -61,15 +61,25 @@ html {
 }
 
 .section-heading  {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #333333;
     padding-bottom: 20px;
     margin: 0;
+    margin-left: 40px;
 }
 
 .btn {
     font-style: 16px;
     font-weight: 400;
     line-height: 16px;
-    color: #CC9933
+    color: #CC9933;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    padding: 13px 20px;
 }
 
 /* Header */
@@ -132,25 +142,43 @@ html {
     margin-right: 45px;
 }
 
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #666666;
+}
+
+.btn-back-call{
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
 /* Special Offers */
 .section-spec-offers {
-    padding-top: 46px;
+    padding-top: 70px;
     padding-bottom: 70px;
+}
+
+.section-social-container {
+    height: 540px;
 }
 
 .section-spec-offers-list {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 100%;
     flex-wrap: wrap;
 }
 
-.section-spec-offers-list>* {
-    flex: 1 1 80px;
+.section-spec-offers-list > * {
+    flex: 1 1 40%;
 }
 
 .section-spec-offers-item {
-    outline: 3px solid red;
+    display: flex;
+    width: 573px;
+    border-radius: 15px;
 }
 
 .section-spec-offers-item:not(:nth-child(2n)) {
@@ -164,6 +192,77 @@ html {
 .section-spec-offers-item:last-child {
     margin-bottom: 0px;
     margin-right: 0px;
+}
+
+ .mal {
+        background-image: url("/img/Rectangle-142.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+
+.grtour {
+        background-image: url("/img/Rectangle-152.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.hotel {
+        background-image: url("/img/3312.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.section-spec-offers-margin {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-bottom: 40px;
+    padding-right: 108px;
+}
+
+.full-margin {
+    padding-top: 212px;
+    padding-left: 45px;
+    padding-bottom: 40px;
+    padding-right: 229px;
+}
+
+.section-spec-offers-item-heading {
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.section-spec-offers-item-heading.big {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.section-spec-offers-price {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.section-spec-offers-price.big {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.section-spec-offers-more {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #F0BF5F;
 }
 
 /* About Us */
