@@ -86,9 +86,10 @@ html {
     display: inline-block;
     width: 11px;
     height: 11px;
-    margin-left: 1px;
     background: url('/img/Rectangle22.svg') center center no-repeat transparent;
     background-size: contain;
+    box-sizing: border-box;
+    
 }
 
 /* Header */
@@ -294,13 +295,45 @@ html {
 
 .section-services-item {
     width: 573px;
+    height: 330px;
     margin-bottom: 24px;
-    outline: 3px solid red;
+    border-radius: 15px;
+    background-color: #FFFFFF;
 }
 
 .section-services-item:not(:nth-child(2n)) {
     margin-right: 24px;
 
+}
+
+.section-services-images {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 50%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.section-services-wrapper {
+    padding-top: 26px;
+    padding-left: 45px;
+    padding-bottom: 35px;
+    padding-right: 126px;
+}
+
+.section-services-names {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 200%;
+    color: #CC9933;
+}
+
+.section-services-description {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #000000;
 }
 
 /* Benefits */
