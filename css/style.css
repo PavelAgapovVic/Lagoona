@@ -1,3 +1,37 @@
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller-Regular'),
+    url('fonts/MullerRegular.woff2') format('woff2'),
+    url('fonts/MullerRegular.woff') format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller-Medium'),
+    url('fonts/MullerMedium.woff2') format('woff2'),
+    url('fonts/MullerMedium.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller-Bold'),
+    url('fonts/MullerBold.woff2') format('woff2'),
+    url('fonts/MullerBold.woff') format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+  body {
+    background-color: #E5E5E5;
+  }
+
 * {
     box-sizing: border-box;
 }
@@ -17,7 +51,7 @@ img {
 }
 
 html {
-    font-family: sans-serif;
+    font-family: 'Muller', sans-serif;
 }
 
 .container {
@@ -29,6 +63,13 @@ html {
 .section-heading  {
     padding-bottom: 20px;
     margin: 0;
+}
+
+.btn {
+    font-style: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #CC9933
 }
 
 /* Header */
@@ -47,8 +88,28 @@ html {
     margin-right: 40px;
 }
 
+.header-telephone {
+    font-style: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #666666;
+}
+
+.section-header-icon {
+    display: inline-block;
+    width: 21px;
+    height: 12px;
+    margin-right: 1px;
+    background: url('/img/Vector2.svg') center center no-repeat transparent;
+    background-size: contain;
+}
+
 .header-personal {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
     margin-left: auto;
+    color: #CC9933;
 }
 
 /* Header Down */
@@ -57,6 +118,8 @@ html {
     height: 70px;
     align-items: center;
     justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 15px;
 }
 
 .nav-list {
