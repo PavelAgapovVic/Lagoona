@@ -344,14 +344,71 @@ html {
 }
 
 .section-benefits-item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-bottom: 32px;
+    padding-right: 42px;
     width: 276px;
     height: 276px;
     margin-bottom: 22px;
-    outline: 3px solid red;
+    background-color: #FFFFFF;
+    border-radius: 15px;
 }
 
 .section-benefits-item:not(:nth-child(4n)) {
     margin-right: 22px;
+}
+
+.section-benefits-icon {
+    width: 64px;
+    height: 66px;
+    margin-bottom: 10px;
+}
+
+.section-benefits-icon.bathtub {
+    background: url(/img/bathtub2.svg) left center no-repeat transparent;
+}
+
+.section-benefits-icon.hanger {
+    width: 67px;
+    background: url(/img/hanger2.svg) left center no-repeat transparent;
+}
+
+.section-benefits-icon.heating {
+    background: url(/img/heating2.svg) left center no-repeat transparent;
+}
+
+.section-benefits-icon.hotel-key {
+    width: 66px;
+    background: url(/img/hotel-key2.svg) left center no-repeat transparent;
+}
+
+.section-benefits-icon.parking {
+    width: 66px;
+    background: url(/img/parking2.svg) left center no-repeat transparent;
+}
+
+.section-benefits-icon.reception {
+    background: url(/img/reception2.svg) left center no-repeat transparent;
+}
+
+.section-benefits-icon.security-box {
+    width: 67px;
+    background: url(/img/security-box2.svg) left center no-repeat transparent;
+}
+
+.section-benefits-icon.swimming-pool {
+    background: url(/img/swimming-pool2.svg) left center no-repeat transparent;
+}
+
+.section-benefits-description {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000000;
 }
 
 /* Hotel */
