@@ -528,3 +528,47 @@ html {
   background: url(/img/Rectangle-222.svg) center center no-repeat transparent;
 }
 
+/* Want tour */
+.form-want_tour-container {
+    background-color: #E9E9E9;
+    border-radius: 15px;
+}
+
+.form-want_tour-padding {
+    padding-bottom: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+}
+
+.section-form-want_tour-wrapper  {
+    display: flex;
+    align-items: center;
+    width: 1080px;
+    height: 106px;
+    margin-left: 45px;
+    padding: 31px 28px 30px 28px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    
+}
+
+.input {
+    border: none;
+    margin-top: 15px;
+    margin-right: 41px;
+}
+
+.input-text {
+    width: 169px;
+}
+
+.input-date {
+    padding: 0;
+    width: 121px;
+}
+
+.input-number {
+    width: 121px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
