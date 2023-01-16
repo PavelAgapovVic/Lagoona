@@ -89,7 +89,6 @@ html {
     background: url('/img/Rectangle22.svg') center center no-repeat transparent;
     background-size: contain;
     box-sizing: border-box;
-    
 }
 
 /* Header */
@@ -422,11 +421,110 @@ html {
     width: 374px;
     height: 440px;
     margin-bottom: 24px;
-    outline: 3px solid red;
+    background-color: #FFFFFF;
+    border-radius: 15px;
 }
 
 .section-hotel-item:not(:nth-child(3n)) {
     margin-right: 22px;
 }
 
+.section-hotel-img-place {
+    width: 374px;
+    height: 217px;
+}
+
+
+.section-hotel-images {
+    width: 374px;
+    height: 217px;
+    left: 0px;
+    top: 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.section-hotel-info-full {
+    padding-top: 36px;
+    padding-left: 45px;
+    padding-bottom: 45px;
+    padding-right: 45px;
+}
+
+.section-hotel-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-hotel-info-price {
+    display: flex;
+}
+
+.section-hotel-text {
+    margin: 0;
+    margin-top: 4px;
+    margin-right: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #999999;
+}
+
+.section-hotel-text-strong {
+    margin: 0;
+    margin-right: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+    padding-bottom: 16px;
+}
+
+.section-hotel-text.bold {
+    margin-top: 4px;
+    color: #000000;
+}
+
+.section-hotel-info-rate {
+    margin-top: 4px;
+}
+
+.section-hotel-text-name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000000;
+    padding-bottom: 16px;
+}
+
+.section-hotel-text-sity {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #999999;
+    padding-bottom: 20px;
+}
+
+.section-hotel-item.img-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 54px;
+  padding-bottom: 27px;
+  padding-right: 57px;
+  background: url(/img/412.jpg) center center no-repeat transparent;
+}
+
+.section-hotel-more-text {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.section-icon-next.white {
+  background: url(/img/Rectangle-222.svg) center center no-repeat transparent;
+}
 
